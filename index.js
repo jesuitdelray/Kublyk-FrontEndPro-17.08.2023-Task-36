@@ -31,4 +31,6 @@ function displayData() {
     userData.innerHTML = ""
     userData.appendChild(table)
     userData.style.display = "block"
+
+    form.remove()
 }
